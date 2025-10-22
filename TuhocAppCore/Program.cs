@@ -21,5 +21,6 @@ namespace TuhocAppCore
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
                 .Build();
+
     }
 }
